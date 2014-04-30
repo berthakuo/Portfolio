@@ -136,7 +136,7 @@ img{
      width:200px;
      height:200px;
      border-radius: 150px;
-     background: url("../images/me.jpg");
+     background: url("../images/me.JPG");
      background-size: cover;
      margin: 0 auto;
 }
@@ -161,7 +161,7 @@ a:hover{
 }
 
 .project{
-     margin:30px 20px 30px 20px;
+     margin:60px 20px 30px 60px;
 }
 
 /******************************************
