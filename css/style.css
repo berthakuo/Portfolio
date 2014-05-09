@@ -47,6 +47,7 @@ Developer @GA in NYC
 
 body {
      background-color: #A7A7A7;
+     color:#2d2d2e;
      
 }
 
@@ -57,7 +58,6 @@ h1{
      font-family: 'Oswald', 'sans-serif';
      font-weight: 300;
      font-size: 3em;
-
 }
 
 h2{
@@ -75,14 +75,33 @@ h3{
      font-weight: 400;
 }
 
+h4{
+     color:white;
+     margin: 0 0 0 30px;
+     display: inline-block;
+     text-transform: uppercase;
+     font-family: 'Oswald', 'sans-serif';
+     font-weight: 300;
+     font-size: 2em;
+}
+
 
 p{
      font-family: 'Open Sans', 'sans-serif';
-     color:  black; /*#666666;#364048*/
      font-size: 1.2em;
      font-weight: 400;
 }
 
+.bio span:first-child{
+     font-family: 'Lato', 'sans-serif';
+     font-weight: 600;
+     font-size: 2em;
+}
+.bio span:last-child{
+     font-family: 'Lato', 'sans-serif';
+     font-weight: 400;
+     font-style:italic;
+}
 
 /******************************************
 /* LAYOUT                   
@@ -98,13 +117,15 @@ p{
      margin: 0 auto;
 }
 
-/*.contact{
-      background-color: #36AFE8;
+.contact{
+      background-color: #e5ebed;
 }
 
 .about{
-     background-color: #304762;
-}*/
+     background-color: #e8e8e8;
+}
+
+
 
 /******************************************
 /* IMAGES                  
@@ -148,11 +169,11 @@ img{
 
 a{
      text-decoration: none;
-     color: black;
+     color: #2d2d2e;
 }
 
 a:hover{
-     color:#ff6600;
+     color:#dea653; /*#ff6600;*/
 }
 
 .description{
@@ -164,23 +185,33 @@ a:hover{
      margin:60px 20px 30px 60px;
 }
 
+.bio{
+     margin:10px 60px 10px 60px;
+}
+
+.container > div {
+     padding-top: 70px;
+     padding-bottom: 70px;
+}
+
+
 /******************************************
 /* NAVIGATION BAR
 /*******************************************/
 ul {
      margin:0;
      text-decoration:none;
-     float:right;
+     /*float:right;*/
 }
 
 li{
-     float:left;
      color:white;
      font-family: 'Oswald', 'sans-serif';
      font-weight: 300;
      font-size: 1.5em;
      text-transform: lowercase;
      margin: 0 20px 0 20px;
+     display: inline-block;
 }
 
 nav{
