@@ -44,22 +44,233 @@ Developer @GA in NYC
 /******************************************
 /* FONT STYLE                  
 /*******************************************/
-body{
-     width:960px;
-     margin:0 auto;
+
+/*<img class="library">
+<script src="js/main.js"></script>*/
+
+*{
+     font-family: 'open sans';
+     font-weight: 300;
 }
-div{
-     min-height: 300px;
-     border: solid 1px black;
-}
-div:first-child{
-     background-color: #66cc33;
+h1{
+     color:white;
+     text-align: center;
+     vertical-align: center;
+     font-size: 3em;
+     text-transform: uppercase;
 }
 
-.library{
+.problem h2{
+     color:#1c83c7;
+     font-size: 1.8em;
+
+}
+
+.limitations h2, .limitations p{
+     color:white;
+     margin-top: 0;
+}
+
+.limitations h2{
+     font-size: 2em;
+}
+
+.limitations p{
+     font-size: 1.2em;
+}
+
+.whatif h2{
+     color:#0a7e0b;
+     font-size: 2em;
+     text-align: center;
+     margin:20px auto;
+     width:40%;
+}
+
+.whatif span {
+     border-top: 1px solid #0a7e0b;
+     border-bottom: 1px solid #0a7e0b;
+     width: 30%;
+     margin:0 auto;
+     display: block;
+}
+
+
+.separation h2, .feedback h2{
+     text-transform: uppercase;
+     margin-top: 0;
+     font-size: 2.5em;
+}
+
+.original h2, .redesign h2{
+     text-transform: uppercase;
+     margin-top: 0;
+     font-size: 2.5em;
+     text-align: center;
+}
+
+.separation p, .feedback p{
+     font-size: 1.2em;
+}
+
+.separation>.box{
+    float:left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.feedback>.box{
+    float:right;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.separation .box{
+     width:200px;
+     height:200px;
+     background: url("../images/box2.jpg");
+     background-size: cover;
+}
+
+.feedback .box{
+     width:200px;
+     height:200px;
+     background: url("../images/gtree.jpg");
+     background-size: cover;
+}
+
+
+.limitations>div{
+     float:left;
+     width:25%;
+     height:250px;
+}
+
+
+body{
+     width:70%;
+     margin:0 auto;
+}
+
+.top, .bottom{
+     background-color: black;
+     opacity: 0.8;
+     position:absolute;
+     width:100%;
+}
+
+.top p, .bottom p{
+     color:white;
+     font-size: 1.3em;
+     font-style: italic;
+}
+.top{
+     top:0;
+}
+
+.bottom{
+     bottom: 0;
+}
+.title{
+     background-color: #66cc33;
+}
+.problem{
+     background-color: #0bc5f4;
+}
+
+.kiosks{
+     height:700px;
+     background:url("../images/kiosks_crop.jpg");
+     background-size: cover;
+     position:relative;
+}
+
+.kiosks > div{
+     padding:10px 40px;
+}
+
+
+.limitations > div:nth-child(2){
+     background: url("../images/kiosk.jpg");
+     background-size: cover;
+}
+.limitations > div:nth-child(3){
+     background: url("../images/library_card.jpg");
+     background-size: cover;
+}
+.limitations > div:nth-child(4){
+     background: url("../images/barcode.jpg");
+     background-size: cover;
+}
+
+.wireframe1, .wireframe2{
+     height:390px;
+     
+     background-size: cover;
+     margin:0 auto;
+}
+
+.wireframe1{
+     background:url("../images/original.jpg");
+     width:515px;
+}
+
+.wireframe2{
+     background:url("../images/redesign.jpg");
+     width:510px;
+}
+
+.whatif{
+     background-color: #26a946;
+}
+
+.limitations{
+     background-color: #2a2c39;
+}
+
+body>div:not(.kiosks){
+     padding: 40px;
+}
+
+li{
+     list-style: inside;
+     font-size:1.3em;
+}
+
+.feedback span, .separation span{
+     font-weight:bold;
+}
+
+.separation span:first-child{
+     color:blue;
+}
+
+.separation span:last-child{
+     color:red;
+}
+
+
+@media (max-width:600px){
+     body{
+          width:100%;
+     }
+     body>div{
+          padding:10px;
+     }
+     .feedback>.box, .separation>.box{
+          float:none;
+          margin:0 auto;
+     }
+   
+}
+
+
+/*.library{
      background: url("../images/library_checkout.png");
      background-size: cover;
 }
+
+
 
 img{
      height:5300px;
@@ -68,7 +279,7 @@ img{
 
 
 
-
+*/
 
 
 

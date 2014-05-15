@@ -5,7 +5,7 @@
     	<meta name="description" content="Your description goes here">
     	<meta name="keywords" content="one, two, three">
 	
-		<title>Blank Template</title>
+		<title>Library Checkout page</title>
 		
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
@@ -13,7 +13,8 @@
 		<link rel="stylesheet" href="css/style2.css">
 		<link rel="stylesheet" href="font-awesome-4.0.3/css/font-awesome.min.css">
 		
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,600,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
 		<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
@@ -21,7 +22,68 @@
 	</head>
 	
 	<body>
-		<img class="library">
-		<script src="js/main.js"></script>
+		
+		<div class="title">
+			<h1>Redesign the <span>library<span> self-checkout interface</h1>
+		</div>
+		<div class="problem">
+			<h2><span>PROBLEM:</span> FOR MOST PEOPLE, THE PROCESS OF CHECKING OUT BOOKS IS STRAIGHTFORWARD AND PAINLESS UNLESS YOU’RE A</br> <span> MOTHER WITH YOUNG CHILDREN</span></h2> 
+		</div>
+		<div class="kiosks">
+			<div class="top">
+				<p>We interact with electronic kiosks everyday - whether it’s getting cash from an ATM or using the self-checkout aisle at the grocery store.</p>
+			</div>
+			<div class="bottom">
+				<p>I wanted to learn more about these interactions so I went to my local public library to  observe people using the self-checkout kiosks.</p>
+			</div>
+		</div>
+		<div class="whatif">
+			<span></span>
+				<h2>WHAT IF the user interface was SIMPLIFIED for the DISTRACTED USER?</h2>
+			<span></span>
+		</div>
+		<div class="limitations clearfix">
+			<div>
+				<h2>Design Limitations</h2>
+				<p>To create a realistic solution, the design needs to exist within the system’s current framework</p>
+			</div>
+			<div></div>
+			<div></div>
+			<div></div>
+			
+		</div>
+		<div class="original">
+			<h2>original interface</h2>
+			<div class="wireframe1"></div>
+		</div>
+		<div class="redesign">
+			<h2>interface <span>redesign<span></h2>
+			<div class="wireframe2"></div>
+		</div>
+		<div class="separation clearfix">
+			<img class="box">
+			<div>
+				<h2>separation of concerns</h2>
+				<p>During the checkout process, the user asks two questions:</p>
+				<ol>
+					<li>Did I scan the last item correctly?</li>
+					<li>Did I scan all my items?</li>
+				</ol>
+				<p>The original design attempted to answer these two questions with one “list” layout. By dividing the layout into two sections, each section can serve a unique and separate purpose.</p>
+				<p>The <span>list</span> (left) provides an overview of all checked out items. The last checked out item is displayed as a large <span>image</span> (right).</p>
+				<p>By visually separating the last item from the entire list, users can easily and quickly determine the last item that was scanned.</p>
+			</div>
+		</div>
+		<div class="feedback clearfix">
+			<img class="box">
+			<div>
+				<h2>image-based feedback</h2>
+				<p>Whereas the original design was text based, the new layout incorporates both text and images. This hybrid model provides the following advantages:</p>
+				<p>Users strongly associate certain mediums (CDs, DVDs) with their cover-art. In those cases, an image will be a more <span>memorable</span> and effective representation than a title.</p> 
+				<p>Images are unique in terms of color and shape whereas text is the same color, style and size.  Therefore images are often more easily <span>scannable</span>.</p>
+			</div>
+
+
+		</div>
 	</body>
 </html>
